@@ -15,7 +15,7 @@ public double getResult() {
 
 
 
-public void setResult(int value) {
+public void setResult(double value) {
 
     if (value != 0)
 
