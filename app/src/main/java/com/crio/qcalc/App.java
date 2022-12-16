@@ -11,7 +11,7 @@ public class App {
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
         StandardCalculator calc = new StandardCalculator();
-        calc.add(1, 2);
+        calc.add(Double.MAX_VALUE, Double.MAX_VALUE);
         System.out.println(calc.getResult());
 
     }
