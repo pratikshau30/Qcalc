@@ -188,7 +188,7 @@ void testDivisionOverflowForDoubles(){
 
         public void execute() throws Throwable{
 
-            standardCalculator.divide(Double.MAX_VALUE, Double.MAX_VALUE);
+            standardCalculator.divide(Double.MAX_VALUE, 0);
 
         }
 
