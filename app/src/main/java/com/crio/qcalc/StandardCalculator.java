@@ -1,7 +1,7 @@
 package com.crio.qcalc;
 
 public class StandardCalculator {
-    private double result;
+    protected double result;
 
     public static void getVersion(){
         System.out.println("Standard Calculator 1.0");
