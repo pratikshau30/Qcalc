@@ -15,5 +15,31 @@ public class ScientificCalculator extends StandardCalculator{
     public void square(double a){
         multiply(a,a);
     }
+    
+public void tan(double a){
+    result = Math.tan(a);
+}
+
+
+
+
+public void log(double a){
+    result = Math.log(a);
+}
+
+
+
+public void sqrt(double a){
+    result =Math.sqrt(a);
 
 }
+
+
+public void cbrt(double a){
+    result = Math.cbrt(a);
+}
+
+}
+
+
+
