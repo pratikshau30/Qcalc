@@ -6,6 +6,17 @@ public class ScientificCalculator extends StandardCalculator{
         System.out.println("Scientific Calculator 1.0");
     }
 
+    
+@Override
+
+public void printResult(){
+
+    System.out.println("Scientific Calculator Result:"+ result );
+
+}
+
+
+
     public void sin(double a){
         result = Math.sin(a);
     }
